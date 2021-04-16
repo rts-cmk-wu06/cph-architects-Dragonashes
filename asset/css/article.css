@@ -28,3 +28,15 @@
         height: 100%;
     }
 }
+
+/* meldahl */
+
+.meldahlgrid{
+    display: grid;
+    place-items: center;
+}
+
+.provestenen{
+    width: 700px;
+    height: auto;
+}
