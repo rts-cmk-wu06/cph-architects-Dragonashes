@@ -1,0 +1,28 @@
+.gallerygrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .gallerygrid {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .gallerygrid {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.galleryimage {
+    width: 100%;
+    height: auto;
+    right: 0;
+    display: block;
+}

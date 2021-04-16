@@ -1,0 +1,9 @@
+.middlegrid1 {
+    background: #BCDFDE;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+
+.centertext {
+    text-align: center;
+}

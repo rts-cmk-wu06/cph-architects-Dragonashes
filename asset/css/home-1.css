@@ -1,0 +1,40 @@
+.middlegrid2 {
+    background: #BCDFDE;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    place-content: center;
+}
+
+.card {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-left: 10em;
+    padding-right: 10em;
+    text-align: center;
+    background: #BCDFDE;
+    place-items: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .card {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+.backcolor {
+    background: rgb(238, 238, 238);
+}
+
+.centering {
+    text-align: center;
+    place-self: center;
+}
+
+/* jacobsen */
+
+.nationalbanken {
+    width: 100%;
+}
